@@ -1,4 +1,14 @@
 Fundraiser::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/mission"
+
+  get "static_pages/contact"
+
+  get "static_pages/news"
+
+  get "static_pages/involed"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

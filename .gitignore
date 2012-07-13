@@ -13,3 +13,15 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+*~
+*.DS_Store
+*.swp
+*.out
+
+# Ignore footnotes files
+/.rails_footnotes
+/config/initializers/rails_footnotes.rb
+
+# Ignore local bundler binaries
+bundler_stubs/
