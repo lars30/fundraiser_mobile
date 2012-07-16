@@ -9,7 +9,7 @@ describe ApplicationHelper do
     end
 
     it "should include the base title" do
-      full_title('foo').should =~ /^Ruby on Rails Tutorial Sample App/
+      full_title('foo').should =~ /^Advancing Our Mission - The Southwest Conference of the United Church of Christ/
     end
 
     it "should not include a bar on the home page" do

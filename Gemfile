@@ -7,6 +7,7 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
+gem 'koala'
 
 # group :development do
 #   # You have to install this too! rails generate rails_footnotes:install
