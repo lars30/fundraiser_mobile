@@ -8,6 +8,7 @@ gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'koala'
+gem 'pg', '0.12.2'
 
 # group :development do
 #   # You have to install this too! rails generate rails_footnotes:install
@@ -38,8 +39,4 @@ group :test do
   gem 'spork', '0.9.0'
   gem 'launchy', '2.1.0'
   gem 'rb-fsevent', '0.9.1', :require => false
-end
-
-group :production do
-  gem 'pg', '0.12.2'
 end
