@@ -6,6 +6,8 @@ Fundraiser::Application.routes.draw do
 
   match '/join',   to: 'users#new'
 
+  match 'auth/:provider/callback', to: 'session#create'
+
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'

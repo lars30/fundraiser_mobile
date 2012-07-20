@@ -9,6 +9,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'koala'
 gem 'pg', '0.12.2'
+gem 'omniauth-twitter'
 
 # group :development do
 #   # You have to install this too! rails generate rails_footnotes:install
