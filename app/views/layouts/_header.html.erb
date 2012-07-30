@@ -1,14 +1,13 @@
 <header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">  
-    <%= link_to "Advancing Our Mission", root_path, id: "logo" %>
+    <%= link_to image_tag('swc_logo.png') + " Advancing our Mission", root_path, id: 'logo' %>
         <nav>
           <ul class="nav pull-right">
-            <li><%= link_to "Home",     root_path %></li>
-            <li><%= link_to "Help",     help_path %></li>
-            <li><%= link_to "Sign in",  '#' %></li>
+            <li><%= link_to "Donate",    '#' %></li>
+            <li><%= link_to "About us",  about_path %></li>
           </ul>
-        </nav>mission
+        </nav>
     </div>
   </div>
 </header>

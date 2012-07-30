@@ -13,5 +13,17 @@ class StaticPagesController < ApplicationController
 
   def about
   end
-  
+
+  def privacy
+  end
+
+  def justiceandwitness
+  end
+
+  def youthprograms
+  end
+
+  def vitalityandgrowth
+  end
+    
 end
