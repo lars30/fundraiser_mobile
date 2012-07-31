@@ -1,0 +1,36 @@
+<%- content_for(:head) do -%>
+  <script type="text/javascript">
+    $(function() {
+        var bulletvalues = [10,12,12,9,7];
+        /* Use a bullet graph type instead */
+        $('.dynamicbullet').sparkline(bulletvalues, {
+          type: 'bullet',
+          height: '50px',
+          width: '460px',
+          targetWidth: '5',
+          targetColor: '#000',
+          performanceColor: '#000',
+          rangeColors: [ '#ccc', '999']
+          } );
+    });
+  </script>
+<%- end -%>
+<h1>Justice & Witness</h1>
+<div class="row">
+  <div class="span6">
+    <p>The mission of the Southwest Conference of the United Church of Christ (SWC) reads: called to embody God’s unconditional justice and love. This commitment to both justice and love gives us balance: justice without love can be harsh; love without justice is mere sentiment. We want our passion for justice to be rooted in God’s love for all. We want our love of neighbor to inspire us to act on behalf of the vulnerable. Our clear commitment in this time is to do all we are able to extend love and justice to the stranger among us.</p>
+
+    <h2>Contributions (this year to date)</h2>
+    <p class="dynamicbullet">Loading..</p>
+
+    <p>For that reason, the focus of the SWC justice work is immigration. We are asking our churches to learn what it means to become an Immigrant Welcoming Congregation. We have trained facilitators to go into our churches and help them learn how to live out that welcome more fully.</p>
+
+    <p>We are partnering with grass roots organizers to register Latino voters.</p>
+
+    <p>We have trained advocates who are keeping us informed about what legislation is coming that would impact the life of the immigrant in America.</p>
+
+    <p>We are partnering with community leaders to do a series of education events with college professors, legislators, elected officials, law enforcers, and spiritual leaders. These events are designed to dispel some of the myths circulating that lead many to fear immigrants. It is our hope that such education will impact the way we think about the stranger in our midst.</p>
+
+    <p>There is so much more to do. If you feel called to join us, we welcome you.</p> 
+  </div>
+</div>

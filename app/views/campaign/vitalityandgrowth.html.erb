@@ -1,0 +1,42 @@
+<%- content_for(:head) do -%>
+  <script type="text/javascript">
+    $(function() {
+        var bulletvalues = [10,12,12,9,7];
+        /* Use a bullet graph type instead */
+        $('.dynamicbullet').sparkline(bulletvalues, {
+          type: 'bullet',
+          height: '50px',
+          width: '460px',
+          targetWidth: '5',
+          targetColor: '#000',
+          performanceColor: '#000',
+          rangeColors: [ '#ccc', '999']
+          } );
+    });
+  </script>
+<%- end -%>
+<h1>Vitality and Growth</h1>
+<div class="row">
+  <div class="span6">
+    <p>Our churches are the backbone of our missional calling.</p>
+
+    <p>The world is changing, hard and fast.</p>
+
+    <p>Those two statements are true. And we have to pay close attention to what they suggest.</p>
+
+    <p>Many of our churches are experiencing an emerging stagnation that threatens to undo us.</p>
+
+    <p>What many others are discovering is the joy of living out a fundamental belief in the United Church of Chrsist: we affirm the responsibility of the church in each generation to make this faith its own.</p>
+
+    <h2>Contributions (this year to date)</h2>
+    <p class="dynamicbullet">Loading..</p>
+
+    <p>So, as the world changes before our eyes, a new generation emerges to refine the faith, make it their own, and give it a relevancy that keeps it alive and vital.</p>
+
+    <p>The SWC is ever-vigilant in its effort to find leaders who see with new eyes what makes for vitality and growth. If changing times call for changing ways, we will adapt. When time makes ancient good uncouth – we must upward still and onward who would keep abreast of truth (to quote the abolitionist poet).</p>
+
+    <p>There is yet more light and truth to break forth from God’s Holy Word – or so we were told when looked across an ocean to escape religious persecution in a time when strict orthodoxy threatened our vitality. And we still believe this to be true.</p>
+
+    <p>Discover your passion for new ways for new people; new words for new times; and the restoration of a vitality that engenders new growth. Then come join us as we make church come alive in exciting ways!</p>
+  </div>
+</div>

@@ -7,9 +7,9 @@ Fundraiser::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
   match '/privacy', to: 'static_pages#privacy'
 
-  match '/justiceandwitness', to: 'static_pages#justiceandwitness'
-  match '/youthprograms',     to: 'static_pages#youthprograms'
-  match '/vitalityandgrowth', to: 'static_pages#vitalityandgrowth'
+  match '/justiceandwitness', to: 'campaign#justiceandwitness'
+  match '/youthprograms',     to: 'campaign#youthprograms'
+  match '/vitalityandgrowth', to: 'campaign#vitalityandgrowth'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

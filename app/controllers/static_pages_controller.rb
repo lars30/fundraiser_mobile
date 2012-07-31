@@ -17,13 +17,5 @@ class StaticPagesController < ApplicationController
   def privacy
   end
 
-  def justiceandwitness
-  end
-
-  def youthprograms
-  end
-
-  def vitalityandgrowth
-  end
     
 end
