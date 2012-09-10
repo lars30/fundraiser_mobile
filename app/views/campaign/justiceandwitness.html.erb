@@ -1,27 +1,12 @@
 <%- content_for(:head) do -%>
-  <script type="text/javascript">
-    $(function() {
-        var bulletvalues = [10,12,12,9,7];
-        /* Use a bullet graph type instead */
-        $('.dynamicbullet').sparkline(bulletvalues, {
-          type: 'bullet',
-          height: '50px',
-          width: '460px',
-          targetWidth: '5',
-          targetColor: '#000',
-          performanceColor: '#000',
-          rangeColors: [ '#ccc', '999']
-          } );
-    });
-  </script>
 <%- end -%>
 <h1>Justice & Witness</h1>
 <div class="row">
   <div class="span6">
     <p>The mission of the Southwest Conference of the United Church of Christ (SWC) reads: called to embody God’s unconditional justice and love. This commitment to both justice and love gives us balance: justice without love can be harsh; love without justice is mere sentiment. We want our passion for justice to be rooted in God’s love for all. We want our love of neighbor to inspire us to act on behalf of the vulnerable. Our clear commitment in this time is to do all we are able to extend love and justice to the stranger among us.</p>
 
-    <h2>Contributions (this year to date)</h2>
-    <p class="dynamicbullet">Loading..</p>
+    <canvas id="dynamic_bulletgraph" data-processing-sources="/assets/BulletGraph.pde"></canvas>
+
 
     <p>For that reason, the focus of the SWC justice work is immigration. We are asking our churches to learn what it means to become an Immigrant Welcoming Congregation. We have trained facilitators to go into our churches and help them learn how to live out that welcome more fully.</p>
 

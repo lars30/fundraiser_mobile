@@ -1,27 +1,12 @@
 <%- content_for(:head) do -%>
-  <script type="text/javascript">
-    $(function() {
-        var bulletvalues = [10,12,12,9,7];
-        /* Use a bullet graph type instead */
-        $('.dynamicbullet').sparkline(bulletvalues, {
-          type: 'bullet',
-          height: '50px',
-          width: '460px',
-          targetWidth: '5',
-          targetColor: '#000',
-          performanceColor: '#000',
-          rangeColors: [ '#ccc', '999']
-          } );
-    });
-  </script>
+ 
 <%- end -%>
 <h1>Youth Programs</h1>
 <div class="row">
   <div class="span6">
     <p>Perhaps our greatest and most valuable asset in the SWC is our youth and young-adults. They are a multi-talented group of young men and women with a real passion for their faith and a real love for the church.</p>
 
-    <h2>Contributions (this year to date)</h2>
-    <p class="dynamicbullet">Loading..</p>
+    <canvas id="dynamic_bulletgraph" data-processing-sources="/assets/BulletGraph.pde"></canvas>
 
     <p>Our church camps are among the best anywhere simply because the youth of our Conference, almost all of whom came of age in those camps, give their selves so fully and freely to them.</p>
 
